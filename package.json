@@ -1,0 +1,29 @@
+{
+  "name": "lark-bot",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "",
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.16.0",
+    "lodash.get": "^4.4.2",
+    "next": "^13.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.3",
+    "typescript": "5.0.4"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
