@@ -1,19 +1,19 @@
-This is a lark-bot template
+# This is a lark-bot template
 
-- Environment
+## Environment
 
 ```
 node -v
 git -v
 ```
 
-- Clone the source code
+## Clone the source code
 
 ```bash
 git clone https://github.com/UNICKCHENG/lark-node-sdk-template.git
 ```
 
-- Configure environment variables
+## Configure environment variables
 
 Create a new `.env` file in the root directory with the following contents
 
@@ -24,9 +24,16 @@ TOKEN="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ENCRYPT_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
-- Compile and run
+## Compile and run
 
 ```bash
 yarn
 yarn dev
 ```
+
+## Configure
+
+- `http://ip:3000/api/webhook`
+
+![image](https://github.com/UNICKCHENG/lark-node-sdk-template/assets/32270702/0435debc-3059-4057-8d73-33714f8bce89)
+
